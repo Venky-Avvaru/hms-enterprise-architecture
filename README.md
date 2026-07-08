@@ -19,7 +19,7 @@ graph TD
     Gemini[Google Gemini AI: Voice-to-Text & Note Generation]:::ai
 
     %% Frontend Layer - Angular (Modularized)
-    subgraph Frontend - Angular SPA (Role-Based UI)
+    subgraph FrontendLayer [Frontend - Angular SPA]
         A[Patient Portal / Web Booking]:::frontend
         B[Front Desk: Registration & Triage]:::frontend
         C[Nursing Desk: Vitals]:::frontend
@@ -43,7 +43,7 @@ graph TD
     D <-->|Voice Dictation| Gemini
 
     %% Backend API Layer - Node.js & Express
-    subgraph Backend API - Node.js/Express
+    subgraph BackendLayer [Backend API - Node.js & Express]
         API_GW(API Gateway: JWT Auth & Dynamic RBAC):::backend
         Svc_Appt(Appointment & Comm Service):::backend
         Svc_Clin(Clinical EMR Service):::backend
@@ -61,7 +61,7 @@ graph TD
     API_GW --> Svc_Admin
 
     %% Database Layer - MySQL
-    subgraph Database - Scalable MySQL
+    subgraph DatabaseLayer [Database - Scalable MySQL]
         DB_Pat[(Patients & Appointments)]:::database
         DB_Clin[(Vitals, Notes, Prescriptions)]:::database
         DB_Lab[(Lab Results & Inventory Logs)]:::database
