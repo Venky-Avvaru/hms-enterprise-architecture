@@ -1,8 +1,8 @@
-# 🌍 Hospital Management System (HMS ERP) - Architecture Blueprint
+# Hospital Management System (HMS ERP) - Architecture Blueprint
 
 This blueprint maps out the complete digital journey of a modern, large-scale hospital network. It shows how our system smoothly connects patient care, surgical theaters, global supply chains, and back-office staff into one secure, lightning-fast platform. 
 
-### 📊 System Architecture Flowchart
+### System Architecture Flowchart
 
 ```mermaid
 graph TD
