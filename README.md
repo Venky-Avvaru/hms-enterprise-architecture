@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="diagrams/HMS-Architecture-Banner.png" alt="Enterprise Hospital Management System Architecture Banner" width="100%">
+</p>
+
 # Enterprise Hospital Management System (HMS) Architecture
 
 <p align="center">
