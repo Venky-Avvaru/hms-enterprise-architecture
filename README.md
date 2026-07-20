@@ -103,6 +103,16 @@ Encounter Closure
 
 ---
 
+# Technology Architecture Overview
+
+The following diagram illustrates how the business workflow maps to the technology stack used to build an enterprise-grade Hospital Management System.
+
+<p align="center">
+  <img src="diagrams/HMS-Technology-Architecture.png" width="100%">
+</p>
+
+---
+
 # Key Features
 
 ### Patient Management
